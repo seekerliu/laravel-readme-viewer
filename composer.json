@@ -1,0 +1,17 @@
+{
+    "name": "seekerliu/packagesreadmes",
+    "description": "Laravel 5 Packages's Readme File(Docs) Viewer.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "seekerliu",
+            "email": "seekerliu@vip.qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/filesystem": "^5.3",
+        "cebe/markdown": "~1.0.1"
+    }
+}
