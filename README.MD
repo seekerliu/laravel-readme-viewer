@@ -2,6 +2,10 @@
 
 This package generates a html page that you can see all of your packages's readme file, So you no longer need to go to each package's homepage to find documents。
 
+### Preview
+
+![Packages Readmes Viewer](http://seekerliu.com/storage/FA1CFAF5-6F58-4D3B-BB57-115960FDC3E6.jpg)
+
 ### Install
 
 Require this package with composer using the following command:
