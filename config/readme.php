@@ -20,4 +20,20 @@ return [
     |
     */
     'filename' => 'readme.md',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Route
+    |--------------------------------------------------------------------------
+    |
+    | Package's default readme file name.
+    | This will register a route as:
+    | Route::get('/readme/{packageName?}','Seekerliu\Readme\Controllers\ReadmeController@index')->name('readme.index');
+    |
+    */
+    'route' => [
+        'prefix' => '/readme/{packageName?}',
+        'action' => 'Seekerliu\Readme\Controllers\ReadmeController@index',
+        'name' => 'readme.index',
+    ],
 ];

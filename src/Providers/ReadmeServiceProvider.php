@@ -17,6 +17,11 @@ class ReadmeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        //publish configs.
+        $this->publishes([
+            __DIR__.'/../../config/readme.php' => config_path('readme.php'),
+        ], 'readme');
+
         //load routes
         $this->loadRoutesFrom(__DIR__.'/../../routes/readme.php');
 

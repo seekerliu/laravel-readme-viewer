@@ -44,6 +44,25 @@ You can now view all the docs of your packages in your browser by follow url.
 http://yoursite.app/readme
 ```
 
+### Custom Route
+
+If you need to custom route, you need to publish config file first
+
+```bash
+php artisan vendor:publish --tag=readme
+```
+
+Then you can change route in '/config/readme.php'
+
+```php
+'route' => [
+        'prefix' => '/readme/{packageName?}',
+        'action' => 'Seekerliu\Readme\Controllers\ReadmeController@index',
+        'name' => 'readme.index',
+],
+```
+
+
 ### License
 
 The Laravel 5 Packages's Readme File(Docs) Viewer is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
