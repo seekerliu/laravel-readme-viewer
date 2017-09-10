@@ -1,6 +1,6 @@
 {
-    "name": "seekerliu/packagesreadmes",
-    "description": "Laravel 5 Packages's Readme File(Docs) Viewer.",
+    "name": "seekerliu/laravel-readme-viewer",
+    "description": "A tool to view all the package's readme files.",
     "license": "MIT",
     "authors": [
         {
