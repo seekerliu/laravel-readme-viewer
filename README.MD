@@ -11,7 +11,7 @@ This package generates a html page that you can see all of your packages's readm
 Require this package with composer using the following command:
 
 ```bash
-composer require seekerliu/packagesreadmes
+composer require seekerliu/laravel-readme-viewer
 ```
 
 After updating composer, add the service provider to the `providers` array in `config/app.php`
@@ -23,7 +23,7 @@ Seekerliu\Readme\Providers\ReadmeServiceProvider::class,
 To install this package on only development systems, add the `--dev` flag to your composer command:
 
 ```bash
-composer require --dev seekerliu/packagesreadmes
+composer require --dev seekerliu/laravel-readme-viewer
 ```
 
 In Laravel, instead of adding the service provider in the `config/app.php` file, you can add the following code to your `app/Providers/AppServiceProvider.php` file, within the `register()` method:
